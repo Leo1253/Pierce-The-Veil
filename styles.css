@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+
+}
+
+#poc {
+    width: 100px;
+    height: 100px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    background-color: darkgray;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    color: gray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1000px;
+    padding: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpz8wyZp-N8lFfEGNtoVEMRxWZs6TdfejkUg&s);
+    border-radius: 25px;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    color: gray;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: gray;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    color: gray;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+#concerts {
+    text-decoration: none;
+    margin: 1px;
+    list-style: none;
+    font-size:larger;
+    line-break: auto;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+#concerts li{
+    line-height: 40px;
+    text-align: center;
+    color: gray;
+}
+
+#concerts li a {
+    color: gray;
+    text-decoration: none;
+}
+
+#albumi{
+    text-align: center;
+    font-size: large;
+    color: gray;
+}
+
+#albumi a {
+    text-decoration: none;
+    color: gray ;
+}
+
+#opis {
+    font-size: large;
+    text-align: center;
+    
+}
+
+#opis div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1000px;
+    padding: 50px;
+    color: black;
+    background-color: gray;
+    border-radius: 25px;
+}
